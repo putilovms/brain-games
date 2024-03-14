@@ -12,12 +12,13 @@ def welcome_user():
 
 def qestions():
     number = randint(1, 100)
-    answer = prompt.string('Question: ' + str(number)+' ')
+    answer = prompt.string('Question: ' + str(number) + ' ')
     correct_answer = 'yes' if number % 2 == 0 else 'no'
     print('Your answer: ' + answer)
     if (answer == correct_answer):
         return True
-    print("'yes' is wrong answer ;(. Correct answer was '"+ correct_answer +"'.")
+    print("'yes' is wrong answer ;(. Correct answer was '"
+          + correct_answer + "'.")
     return False
 
 
