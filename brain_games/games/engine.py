@@ -58,7 +58,7 @@ def math_operation(number1, number2, math_op):
         case 3:
             result.append(number1 * number2)
             result.append('*')
-    return(result)
+    return (result)
 
 
 # Выводит надпись при правильном ответе
@@ -66,11 +66,10 @@ def correct():
     print('Correct!')
 
 
-
 # Выводит подсказку при неправильном ответе
 def hint_not_correct(answer, correct_answer):
     print("'" + answer + "' is wrong answer ;(. Correct answer was '"
-          + str(correct_answer) +"'.")
+          + str(correct_answer) + "'.")
 
 
 # Выводит финальную надпись при неправильном ответе
