@@ -4,10 +4,10 @@ from . import engine
 
 def play():
     name = engine.welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('What is the result of the expression?')
     right_answer = 0
     while right_answer < engine.NUMBER_ROUNDS:
-        result_answer = engine.qestions_game_even()
+        result_answer = engine.qestions_game_calc()
         if result_answer:
             engine.correct()
             right_answer += 1
