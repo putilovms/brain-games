@@ -50,7 +50,7 @@ def qestions_game_gcd():
     number1 = randint(1, 50)
     number2 = randint(1, 50)
     correct_answer = getGcd(number1, number2)
-    answer = prompt.string('Question: ' + str(number1) + ' ' 
+    answer = prompt.string('Question: ' + str(number1) + ' '
                            + str(number2) + ' ')
     print_answer(answer)
     if (answer == str(correct_answer)):
@@ -59,6 +59,18 @@ def qestions_game_gcd():
     return False
 
 
+# Поиск максимального делителя двух чисел
+# по алгоритму Евклида
+def getGcd(a, b):
+    while (a != 0) and (b != 0):
+        if a > b:
+            a = a - b
+        else:
+            b = b - a
+    return (a + b)
+
+
+'''
 # Список натуральных делителей числа
 def getDivs(a):
     divs = []
@@ -75,6 +87,8 @@ def getGcd(a, b):
     for i in reversed(divs_a):
         if i in divs_b:
             return i
+
+'''
 
 
 # Возвращает список с результатом математической операции
