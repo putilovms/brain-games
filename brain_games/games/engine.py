@@ -44,6 +44,37 @@ def qestions_game_calc():
     return False
 
 
+# Задать вопрос для игры НОД (GCD)
+# Возвращает результат ответа
+def qestions_game_gcd():
+    number1 = randint(1, 50)
+    number2 = randint(1, 50)
+    correct_answer = getGcd(number1, number2)
+    answer = prompt.string('Question: ' + str(number1) + ' ' + str(number2) + ' ')
+    print_answer(answer)
+    if (answer == str(correct_answer)):
+        return True
+    hint_not_correct(answer, correct_answer)
+    return False
+
+
+#Список натуральных делителей числа
+def getDivs(a):
+    divs = []
+    for i in range(a):
+        if a % (i + 1) == 0:
+            divs.append(i + 1)
+    return divs
+
+#Поиск максимального делителя двух чисел
+def getGcd(a, b):
+    divs_a = getDivs(a)
+    divs_b = getDivs(b)
+    for i in reversed(divs_a):
+        if i in divs_b:
+            return i
+
+
 # Возвращает список с результатом математической операции
 # и символ математической операции
 def math_operation(number1, number2, math_op):
