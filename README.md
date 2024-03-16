@@ -11,3 +11,6 @@
 
 ### Gameplay game Calc
 [![asciicast](https://asciinema.org/a/647108.svg)](https://asciinema.org/a/647108)
+
+### Gameplay game GCD
+[![asciicast](https://asciinema.org/a/YefknwQq74p6AcJK0XJ5htIQL.svg)](https://asciinema.org/a/YefknwQq74p6AcJK0XJ5htIQL)
