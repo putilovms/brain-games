@@ -17,3 +17,6 @@
 
 ### Gameplay game Progression
 [![asciicast](https://asciinema.org/a/MBaPEbUaemLbpBJwJqde3w9jc.svg)](https://asciinema.org/a/MBaPEbUaemLbpBJwJqde3w9jc)
+
+### Gameplay game Prime
+[![asciicast](https://asciinema.org/a/647353.svg)](https://asciinema.org/a/647353)
