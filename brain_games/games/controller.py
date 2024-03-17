@@ -29,7 +29,7 @@ def print_rule_game(game):
         case 'progression':
             print('What number is missing in the progression?')
         case 'prime':
-            print('Answer "yes" if given number is prime.' +
+            print('Answer "yes" if given number is prime. ' +
                   + 'Otherwise answer "no".')
 
 
