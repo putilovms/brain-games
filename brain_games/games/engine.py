@@ -75,6 +75,31 @@ def qestions_game_progression():
     return False
 
 
+# Задать вопрос для игры prime
+# Возвращает результат ответа
+def qestions_game_prime():
+    number = randint(1, 100)
+    answer = prompt.string('Question: ' + str(number) + ' ')
+    correct_answer = 'yes' if is_prime(number) else 'no'
+    print_answer(answer)
+    if (answer == str(correct_answer)):
+        return True
+    hint_not_correct(answer, correct_answer)
+    return False
+
+
+# Проверяет является ли число простым
+# если число простое то возвращается True
+# если нет, то False
+def is_prime(number):
+    if number < 2:
+        return False
+    for i in range(2, number // 2 + 1):
+        if number % i == 0:
+            return False
+    return True
+
+
 # Генерирует арифметическую прогрессию длинной lenght,
 # с шагом step, начиная с числа start
 def prog_gen(lenght, step, start):
