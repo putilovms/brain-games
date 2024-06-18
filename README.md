@@ -5,7 +5,7 @@
 # Brain games
 *Educational project*
 
-A set of 5 arithmetic console mini-games
+A set of 5 arithmetic console mini-games. To win, you need to answer the question correctly three times in a row.
 
 ## Installation
 1. Requires Python version 3.10 or higher and Poetry
