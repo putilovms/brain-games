@@ -13,8 +13,6 @@ A set of 5 arithmetic console mini-games
 3. Build the project using the command: `>> make build`
 4. Install the project: `>> make package-install`
 
-[![asciicast](https://asciinema.org/a/647103.svg)](https://asciinema.org/a/647103)
-
 ## Examples of games
 ### Gameplay game Even
 [![asciicast](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib.svg)](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib)
