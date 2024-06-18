@@ -7,9 +7,15 @@
 
 A set of 5 arithmetic console mini-games
 
-### Setup game
+## Installation
+1. Requires Python version 3.10 or higher and Poetry
+2. Clone the project: `>> git clone https://github.com/putilovms/python-project-49.git`
+3. Build the project using the command: `>> make build`
+4. Install the project: `>> make package-install`
+
 [![asciicast](https://asciinema.org/a/647103.svg)](https://asciinema.org/a/647103)
 
+## Examples of games
 ### Gameplay game Even
 [![asciicast](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib.svg)](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib)
 
@@ -24,5 +30,3 @@ A set of 5 arithmetic console mini-games
 
 ### Gameplay game Prime
 [![asciicast](https://asciinema.org/a/647353.svg)](https://asciinema.org/a/647353)
-
-Mickle
