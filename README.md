@@ -15,16 +15,21 @@ A set of 5 arithmetic console mini-games
 
 ## Examples of games
 ### Gameplay game Even
+*Answer the question, is the number even?*
 [![asciicast](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib.svg)](https://asciinema.org/a/UFMh51rbmmqEVdHev0iHE8yib)
 
 ### Gameplay game Calc
+*Write down the result of the calculations*
 [![asciicast](https://asciinema.org/a/647108.svg)](https://asciinema.org/a/647108)
 
 ### Gameplay game GCD
+*Write down the greatest common divisor*
 [![asciicast](https://asciinema.org/a/YefknwQq74p6AcJK0XJ5htIQL.svg)](https://asciinema.org/a/YefknwQq74p6AcJK0XJ5htIQL)
 
 ### Gameplay game Progression
+*Complete the sequence of numbers*
 [![asciicast](https://asciinema.org/a/MBaPEbUaemLbpBJwJqde3w9jc.svg)](https://asciinema.org/a/MBaPEbUaemLbpBJwJqde3w9jc)
 
 ### Gameplay game Prime
+*Guess if the number is prime?*
 [![asciicast](https://asciinema.org/a/647353.svg)](https://asciinema.org/a/647353)
