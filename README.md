@@ -10,8 +10,20 @@ A set of 5 arithmetic console mini-games. To win, you need to answer the questio
 ## Installation
 1. Requires Python version 3.10 or higher and Poetry
 2. Clone the project: `>> git clone https://github.com/putilovms/python-project-49.git`
-3. Build the project using the command: `>> make build`
-4. Install the project: `>> make package-install`
+3. Install the project: `>> make install`
+4. Build the project: `>> make build`
+5. Install the package: `>> make package-install`
+6. To launch games:
+   1. Run game Even: `>> brain-even`
+   2. Run game Calc: `>> brain-calc`
+   3. Run game GCD: `>> brain-gcd`
+   4. Run game Progression: `>> brain-progression`
+   5. Run game Prime: `>> brain-prime`
+
+## Docker
+1. Create an image: `>> docker build . -t brain-games`
+2. Run the container in the background: `>> docker run --name brain-games -itd --rm brain-games`
+3. Connect to a container: `>> docker exec -it brain-games bash`
 
 ## Examples of games
 ### Gameplay game Even
