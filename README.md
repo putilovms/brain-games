@@ -9,7 +9,7 @@ A set of 5 arithmetic console mini-games. To win, you need to answer the questio
 
 ## Installation
 1. Requires Python version 3.10 or higher and Poetry
-2. Clone the project: `>> git clone https://github.com/putilovms/python-project-49.git`
+2. Clone the project: `>> git clone https://github.com/putilovms/brain-games.git`
 3. Install the project: `>> make install`
 4. Build the project: `>> make build`
 5. Install the package: `>> make package-install`
